@@ -9,7 +9,7 @@ export default defineConfig({
       name: "foodShare",
       filename: "remoteEntry.js",
       exposes: {},
-      remotes: {},
+      remotes: { widgetGPS: "http://localhost:3001/assets/remoteEntry.js" },
       shared: ["react", "react-dom"],
     }),
   ],

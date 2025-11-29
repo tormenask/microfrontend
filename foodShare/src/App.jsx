@@ -1,13 +1,11 @@
-/* import DeliveryTrackingWidget from 'foodShareGps/DeliveryTrackingWidget' */
-import GpsSimulator from 'widgetGPS/GpsSimulator'
+import WidgetGPS from 'widgetGPS/OrderTracker'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      {/* <DeliveryTrackingWidget orderId="ABC-12345" /> */}
-      <GpsSimulator />
+    <WidgetGPS />
     </>
   )
 }
